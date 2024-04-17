@@ -130,13 +130,15 @@ h2 {
 .cardInside {
   overflow: hidden;
   position: absolute;
-  background-color: #fff;
   width: 250px;
   height: 350px;
   z-index: -1;
   left: 0;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  background: no-repeat bottom/140% url('img/GLIN.png'),
+    no-repeat center 20px/90% url('img/Xiao.png');
+  background-color: #fff;
 }
 
 p {
@@ -175,7 +177,7 @@ p {
   height: auto;
 }
 
-.glin {
+/* .glin {
   position: absolute;
   bottom: 10px;
   width: 100%;
@@ -199,7 +201,7 @@ p {
 .xiao img {
   width: 100%;
   height: auto;
-}
+} */
 
 .birthdayCard:hover {
   transform: perspective(2500px) rotate(5deg) translateX(70px);
